@@ -8,6 +8,7 @@ import { CategoryComponent } from './components/category/category.component';
 import { FooditemComponent } from './components/fooditem/fooditem.component';
 import { UserFooditemComponent } from './components/user-fooditem/user-fooditem.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SharedService } from './shared.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
