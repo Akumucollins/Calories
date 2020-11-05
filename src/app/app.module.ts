@@ -7,6 +7,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { CategoryComponent } from './category/category.component';
 import { FooditemComponent } from './fooditem/fooditem.component';
 import { UserFooditemComponent } from './user-fooditem/user-fooditem.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UserFooditemComponent } from './user-fooditem/user-fooditem.component';
     ProfileComponent,
     CategoryComponent,
     FooditemComponent,
-    UserFooditemComponent
+    UserFooditemComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
